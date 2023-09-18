@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LoginTestCase</name>
+   <name>sortlowtohightestcase</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a1efa849-37fd-4069-8c6d-38f0ef6d11ea</testCaseGuid>
+   <testCaseGuid>6403e509-edf3-472d-be1a-446ac05bc6bc</testCaseGuid>
 </TestCaseEntity>

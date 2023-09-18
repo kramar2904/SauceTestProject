@@ -17,11 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.saucedemo.com/')
+WebUI.selectOptionByIndex(findTestObject('Inventory/sampletestobject'), 3)
 
-WebUI.setText(findTestObject('LoginPage/Username'), GlobalVariable.username)
+WebUI.delay(10)
 
-WebUI.setText(findTestObject('LoginPage/Password'), 'secret_sauce')
-
-WebUI.click(findTestObject('LoginPage/Button'))
+CustomKeywords.'com.saucetest.sample.sampleclass.isElementPresentinList'()
 

@@ -30,17 +30,17 @@ class SauceDemoListener {
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println("From Before Test Case Listener...")
-		WebUI.openBrowser(GlobalVariable.URL)
+		//WebUI.openBrowser(GlobalVariable.URL)
 	}
 
 	/**
 	 * Executes after every test case ends.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		println("from After Test Case Listener..")
-		WebUI.closeBrowser()
-	}
+//	@AfterTestCase
+//	def sampleAfterTestCase(TestCaseContext testCaseContext) {
+//		println("from After Test Case Listener..")
+//		WebUI.closeBrowser()
+//	}
 
 }
